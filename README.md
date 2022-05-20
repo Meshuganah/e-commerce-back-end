@@ -15,6 +15,10 @@ Will install the necessary modules, mysql2, sequelize, dotenv, express
 Set up for this application is somewhat involved, so walk through videos will be included below.
 
 Users will need to do the following:
+-Create a .env file with the following and fill out with their mysql information
+    -DB_NAME='ecommerce_db'
+    -DB_USER=''
+    -DB_PW=''
 -log into mysql using the CLI command mysql -u (username) -p
 -run the command to create their database SOURCE db/schema.sql;
 -exit mysql
